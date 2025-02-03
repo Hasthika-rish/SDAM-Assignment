@@ -3,9 +3,9 @@ using MySql.Data.MySqlClient;
 
 namespace Gym_Management_System
 {
-    internal class Data_Base 
+    internal class Data_Base
     {
-        private static MySqlConnection conn = new MySqlConnection("server=localhost;port=3306;username=root;password=;database=gym_db"); 
+        private static MySqlConnection conn = new MySqlConnection("server=localhost;port=3306;username=root;password=;database=gym_db");
 
         public static MySqlConnection GetConnection() // Make this method static
         {
