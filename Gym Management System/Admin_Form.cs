@@ -54,7 +54,7 @@ namespace Gym_Management_System
         {
             EquipmentManagement viewForm = new EquipmentManagement();
             viewForm.Show();
-            
+            this.Hide();
         }
     }
 }
