@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -141,7 +141,56 @@
     <Compile Include="EquipmentReservationForm.Designer.cs">
       <DependentUpon>EquipmentReservationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerRegistrationForm.Designer.cs">
+      <DependentUpon>TrainerRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerReservationForm.Designer.cs">
+      <DependentUpon>TrainerReservationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerReservationManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerReservationManagement.Designer.cs">
+      <DependentUpon>TrainerReservationManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_Form.Designer.cs">
+      <DependentUpon>Trainer_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserAttendanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAttendanceForm.Designer.cs">
+      <DependentUpon>UserAttendanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Form.Designer.cs">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminAttendanceManagement.resx">
       <DependentUpon>AdminAttendanceManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -163,6 +212,9 @@
     <EmbeddedResource Include="EquipmentReservationForm.resx">
       <DependentUpon>EquipmentReservationForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -172,6 +224,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerRegistrationForm.resx">
+      <DependentUpon>TrainerRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerReservationForm.resx">
+      <DependentUpon>TrainerReservationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerReservationManagement.resx">
+      <DependentUpon>TrainerReservationManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_Form.resx">
+      <DependentUpon>Trainer_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAttendanceForm.resx">
+      <DependentUpon>UserAttendanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Form.resx">
+      <DependentUpon>User_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
