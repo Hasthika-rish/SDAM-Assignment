@@ -104,33 +104,16 @@
     <Compile Include="AdminAttendanceManagement.Designer.cs">
       <DependentUpon>AdminAttendanceManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminReservationManagement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminReservationManagement.Designer.cs">
-      <DependentUpon>AdminReservationManagement.cs</DependentUpon>
-    </Compile>
-    <Compile Include="AdminTrainerManagement.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AdminTrainerManagement.Designer.cs">
-      <DependentUpon>AdminTrainerManagement.cs</DependentUpon>
-    </Compile>
     <Compile Include="Admin_Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin_Form.Designer.cs">
       <DependentUpon>Admin_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdminAttendanceManagement.resx">
       <DependentUpon>AdminAttendanceManagement.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminReservationManagement.resx">
-      <DependentUpon>AdminReservationManagement.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="AdminTrainerManagement.resx">
-      <DependentUpon>AdminTrainerManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin_Form.resx">
       <DependentUpon>Admin_Form.cs</DependentUpon>
